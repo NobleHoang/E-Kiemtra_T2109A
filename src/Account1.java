@@ -28,7 +28,7 @@ public class Account1 {
         System.out.println("enter accNumber : ");
         int accNumber = Integer.parseInt(ip.nextLine());
         this.accNumber = accNumber;
-        if(accNumber>=100000 && accNumber<=100100 ){
+        if(accNumber>=100000 && accNumber<=100999 ){
             this.accNumber=accNumber;
         }
         System.out.println("enter amount : ");
